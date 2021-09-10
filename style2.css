@@ -1,0 +1,60 @@
+.background{
+background-image: url('img/Pozadina.jpg');
+}
+.background{
+	position: absolute;
+	background-size: cover;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+
+}
+.container{
+	width: 400px;
+	height: 400px;
+	background-color: black;
+	position: absolute;
+	margin-left: 650px;
+	margin-top: 250px;
+	opacity: .8;
+	border-radius: 10px;
+	
+
+}
+.sadrzaj{
+	padding: 25px;
+	color:white;
+		
+}
+.unos{
+	margin-top: 35px;   
+}
+.labela{
+
+margin-top: 35px;
+}
+#dugme{
+	margin-top: 60px;
+	width: 100%;
+}
+.polje{
+	border: 0;
+	background-color: black;
+	outline: none;
+	border-bottom: 1px solid white;
+	color:white;
+	float: right;
+	margin-right: 50px;
+}
+.dugme{
+	background-color: red;
+	padding: 7px;
+	
+}
+#dugme:hover{
+	background-color: blue;
+}
+.robot{
+	margin-top: 30px;
+}
